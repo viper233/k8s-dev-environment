@@ -1,0 +1,16 @@
+- hosts: localhost
+  name: configure host to be able to run k8s development environment
+
+  vars:
+    - aws_region: 'us-west-2'
+  roles:
+    - geerlingguy.docker
+    - dstil.aws-cli
+    
+    
+    - dosullivan.kops
+    - andrewrothstein.kubectl
+    - andrewrothstein.minikube
+    
+    - andrewrothstein.terraform
+    - andrewrothstein.packer 

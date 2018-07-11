@@ -1,0 +1,11 @@
+
+- src: geerlingguy.docker
+- src: dstil.aws-cli
+
+
+- src: dosullivan.kops
+- src: andrewrothstein.kubectl
+- src: andrewrothstein.minikube
+
+- src: andrewrothstein.terraform
+- src: andrewrothstein.packer
